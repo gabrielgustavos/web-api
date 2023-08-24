@@ -8,7 +8,7 @@ namespace WebAPI.Controllers
     public class FuncionarioController : ControllerBase
     {
         [HttpGet]
-        public ActionResult Get()
+        public ActionResult GetFuncionarios()
         {
             return Ok("Oi");
         }
